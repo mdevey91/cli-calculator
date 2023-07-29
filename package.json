@@ -1,0 +1,20 @@
+{
+  "name": "cli-calculator",
+  "version": "1.0.0",
+  "description": "A cli calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calc"
+  ],
+  "bin": {
+    "calc": "./bin/index.js"
+  },
+  "author": "Matt Devey",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
